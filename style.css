@@ -91,6 +91,11 @@ header .logo a {
   background-color: #fff;
 }
 
+.navv{
+  background-color: #8dcdf3;
+}
+
+
 .nav_btn button:hover {
   background-color: #0284c7;
   color: #fff;
@@ -170,6 +175,13 @@ header .logo a {
   position: relative;
   text-align: start;
   margin-left: -10px;
+}
+
+.projects-icons{
+  list-style-type: none;
+}
+.projects{
+  background-color: white;
 }
 
 .about .about-icons a {
@@ -436,64 +448,6 @@ header .logo a {
   }
 }
 
-/* @media only screen and (min-width: 661px) and (max-width: 979px) {
-  .flex-wrapper {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .flex-grid {
-    flex-flow: row wrap;
-  }
-
-  /* t for tablet */
-/* .t-col-4,
-  .t-col-12 {
-    margin-top: 2rem;
-  }
-
-  .t-col-4 {
-    width: 31.46%;
-  }
-  .t-col-12 {
-    width: 100%;
-  }
-
-  .flex-grid:first-child .t-col-4,
-  .flex-grid:first-child .t-col-12 {
-    margin-top: 0;
-  }
-} */
-
-/* @media only screen and (min-width: 0px) and (max-width: 660px) {
-  .flex-wrapper {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-
-  .flex-grid {
-    flex-flow: row wrap;
-  } */
-
-/* m for mobile */
-/* .m-col-6,
-  .m-col-12 {
-    margin-top: 2rem;
-  }
-
-  .m-col-6 {
-    width: 47.2%;
-  }
-  .m-col-12 {
-    width: 100%;
-  }
-
-  .flex-grid:first-child .m-col-6,
-  .flex-grid:first-child .m-col-12 {
-    margin-top: 0;
-  }
-}  */
-
 .contact {
   /* height: 80vh; */
   padding: 2% 10% 0%;
@@ -745,4 +699,29 @@ footer .wave {
   .resolution h1 span {
     font-style: italic;
   }
+}
+
+/* CSS from previous messages */
+
+#projects {
+  width: 100%;
+  padding: 2% 10%;
+  background-color: #f8f9fa;
+}
+
+.projects {
+  text-align: center;
+}
+
+#projects h1 {
+  font-size: 40px;
+  color: #1e293b;
+  margin: 0.5rem 0 1rem 0;
+}
+
+#projects p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
 }
